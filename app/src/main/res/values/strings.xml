@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">PictoLearn</string>
+
+    <!-- Main Activity Strings -->
+    <string name="editImageDesc">Editing Pen Image</string>
+    <string name="editImageText">Create or Edit DataSets</string>
+
+    <string name="learnImageDesc">Play Button Image</string>
+    <string name="learnImageText">Learn!</string>
+
+    <string name="settingsImageDesc">Settings Cogwheel Image</string>
+    <string name="settingsImageText">Settings</string>
+
+    <string name="infoImageDesc">Information Image</string>
+    <string name="infoImageText">Info</string>
+
+    <string name="recentText">Recent</string>
+
+    <!-- Edit Activity Strings -->
+    <string name="addButtonText">Add</string>
+    <string name="saveButtonText">Save</string>
+    <string name="deleteButtonText">Delete</string>
+    <string name="exitButtonText">Exit</string>
+    <string name="drawButtonText">Draw</string>
+    <string name="drawButtonText2">Stop Drawing</string>
+    <string name="clearButtonText">Clear</string>
+
+    <string name="imgView1Desc">Layer1</string>
+    <string name="imgView2Desc">Layer2</string>
+    <string name="imgView3Desc">Right Flip Button</string>
+    <string name="imgView4Desc">Left Flip Button</string>
+    <string name="imgView5Desc">Color Picker</string>
+
+    <!-- Learn Activity Strings -->
+    <string name="loadButtonText">Load</string>
+    <string name="startButtonText">Start</string>
+    <string name="quitButtonText">Quit</string>
+    <string name="checkButtonText">Check</string>
+
+    <string name="questionText">Question</string>
+    <string name="scoreText">Score</string>
+    <string name="scoreText2">Score: %1$d</string>
+    <string name="answerText">Answer</string>
+
+    <!-- Color Popup Strings -->
+    <string name="yellowButtonText">Yellow</string>
+    <string name="blueButtonText">Blue</string>
+    <string name="eraserButtonText">Eraser</string>
+    <string name="closeButtonText">Close</string>
+
+    <string name="pickColorText">Pick a color to draw!</string>
+
+    <!-- Data Item Strings -->
+    <string name="imgView6Desc">File Image</string>
+    <string name="fileText">Filename</string>
+    <string name="openButtonText">Open</string>
+
+    <!-- Example Item Strings -->
+    <string name="cordButtonDesc">Coordinate Button</string>
+
+    <!-- Image Popup Strings -->
+    <string name="dataSetText">Name your DataSet!</string>
+    <string name="nameText">Name</string>
+    <string name="importText">Import Picture</string>
+    <string name="importDataText">Import DataSet</string>
+
+    <string name="okButtonText">OK</string>
+
+    <!-- Learn Popup Strings -->
+    <string name="pickDataSetText">Pick DataSet to start!</string>
+
+    <!-- Mode Popup Strings -->
+    <string name="modeText">Pick learning mode to start!</string>
+
+    <string name="pointingButtonText">Pointing Mode</string>
+    <string name="answerButtonText">Answer Mode</string>
+
+    <!-- Recent Item Strings -->
+    <string name="dateText">Date</string>
+    <string name="lastUsedText">Last Used</string>
+    <string name="lastScoresText">Last Scores</string>
+
+    <!-- Misc -->
+    <string name="entryDeleted">Entry Deleted</string>
+    <string name="choosePos">Choose Position</string>
+    <string name="confirmDelete">Do you really want to delete this DataSet?</string>
+    <string name="confirmYes">Yes</string>
+    <string name="confirmNo">No</string>
+    <string name="filesSaved">Files successfully saved!</string>
+    <string name="checkCorrect">Correct!</string>
+    <string name="checkWrong">Wrong!</string>
+    <string name="checkWrong2">Wrong! Right Answer: "%1$s"</string>
+    <string name="dataDone">Done!</string>
+    <string name="endDialog">Score: %1$d; Score Percentage: %2$d%3$s</string>
+    <string name="infoMessage">Developed by Jakub Sienkiewicz for 2019 High School Project. Found a bug or issue? Contact me at apptive25@gmail.com</string>
+</resources>

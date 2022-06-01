@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Layout XML file is used for the Editing Screen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:dividerPadding="8dp"
+        android:background="#85A3A8">
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_colors"
+            android:text="@string/addButtonText"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_colors"
+            android:text="@string/saveButtonText"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_colors"
+            android:text="@string/exitButtonText"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_colors"
+            android:text="@string/deleteButtonText"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#DCE5F2">
+
+        <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/imgView1Desc"
+            android:clickable="true"
+            android:focusable="true" />
+
+
+        <ImageView
+            android:id="@+id/imgView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/imgView2Desc"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/flipRight"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@id/imgView2"
+            android:layout_alignEnd="@id/imgView2"
+            android:layout_margin="4dp"
+            android:contentDescription="@string/imgView3Desc"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_rotate_right_24px"
+            android:background="@drawable/border" />
+
+        <ImageView
+            android:id="@+id/flipLeft"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@id/imgView2"
+            android:layout_toStartOf="@id/flipRight"
+            android:layout_margin="4dp"
+            android:contentDescription="@string/imgView4Desc"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_rotate_left_24px"
+            android:background="@drawable/border" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="?android:dividerHorizontal"
+        android:dividerPadding="8dp"
+        android:background="#85A3A8">
+
+        <ImageView
+            android:id="@+id/eColor"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:contentDescription="@string/imgView5Desc"
+            android:background="#282A40" />
+
+        <Button
+            android:id="@+id/ePaintButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/drawButtonText"
+            android:background="@drawable/button_colors"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <Button
+            android:id="@+id/eClearButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/clearButtonText"
+            android:background="@drawable/button_colors"
+            android:textColor="#DCE5F2"
+            style="?android:attr/borderlessButtonStyle" />
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#85A3A8"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
